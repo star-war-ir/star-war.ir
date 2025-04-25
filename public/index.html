@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Event</title>
+    <link rel="icon" href="./img/logo1.png" type="image/png">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body class="bg-mainstar text-white text-xl font-bakh-medium">
+
+    <!-- Icons -->
+    <svg class="hidden">
+        <symbol id="chevron-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="size-5">
+            <path fill-rule="evenodd"
+                d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z"
+                clip-rule="evenodd" />
+        </symbol>
+        <symbol id="curve" width="186" height="41" viewBox="0 0 186 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M93 0C128.34 0 150.66 41 186 41L0 41C34.875 41 57.66 0 93 0Z" fill="#2D50DE" />
+        </symbol>
+
+
+    </svg>
+
+    <!-- Background -->
+    <div class="absolute inset-0 -z-50">
+        <img class="absolute left-0 -top-[450px]" src="img/bg/bg1.svg" alt="">
+        <img class="absolute -right-16 top-36" src="img/bg/bg2.svg" alt="">
+        <img class="absolute left-0 top-[1100px]" src="img/bg/bg1.svg" alt="">
+        <img class="absolute -right-16 top-[1650px]" src="img/bg/bg2.svg" alt="">
+        <img class="absolute left-0 top-[2250px]" src="img/bg/bg1.svg" alt="">
+        <img class="absolute -right-16 top-[2800px]" src="img/bg/bg2.svg" alt="">
+        <img class="absolute left-0 top-[3400px]" src="img/bg/bg1.svg" alt="">
+    </div>
+
+    <!-- Header Desktop -->
+    <header class="container pt-12">
+        <div class="flex justify-between items-center">
+            <nav class="flex gap-x-9 items-center">
+                <img class="h-17" src="img/logo1.png" alt="logo">
+                <ul class="flex gap-x-6 *:text-gray-400 font-bakh-regular">
+                    <li><a class="text-white font-bakh-medium" href="#">درباره مسابقه</a></li>
+                    <li><a href="#">جوایز</a></li>
+                    <li><a href="#">مکان مسابقه</a></li>
+                    <li><a href="#">تماس باما</a></li>
+                    <li><a href="#">برگزارکنندگان</a></li>
+                    <li><a href="#">حامیان</a></li>
+                    <li><a href="#">ثبت نام</a></li>
+                </ul>
+            </nav>
+            <div class="flex gap-x-2.5 font-bakh-regular px-7 py-4 backdrop-blur-sm rounded-[100px] bg-white/10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                </svg>
+
+                <a href="#">ثبت نام کنید</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="container mt-24">
+
+        <!-- Section 1 -->
+        <section class="h-[700px] flex items-center justify-between">
+            <div class="w-1/2">
+                <h1
+                    class="font-rokh-black text-[86px] text-transparent bg-clip-text bg-gradient-to-tr from-white/50 to-white">
+                    مسابقه استار</h1>
+                <h3
+                    class="relative pr-7 text-5xl font-rokh-regular text-transparent bg-clip-text bg-gradient-to-tr from-white/50 to-white before:content-[''] before:absolute before:right-0 before:top-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:border-r-[18px] before:border-r-secondstar before:border-t-[11px] before:border-t-transparent before:border-b-[11px] before:border-b-transparent">
+                    مسابقه برنامه نویسی STAR</h3>
+                <p class="text-gray-400 font-bakh-regular text-2xl mt-[42px] leading-9">
+                    لورم ایپسوم متن ساختگی با تولید سادگی<br> نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                </p>
+                <div class="mt-20 flex items-center">
+                    <a href="#"
+                        class="ml-11 px-9 py-6 border-b-[5px] rounded-[100px] border-border-mainstar bg-gradient-to-r from-thirdstar via-secondstar to-thirdstar ease-in-out transition-all hover:shadow-[0px_12px_40px_0px_#2D50DE33]">
+                        ثبت نام کنید
+                    </a>
+                    <a href="#" class="flex items-center gap-x-1.5">
+                        مشاوره رایگان
+                        <svg class="w-5">
+                            <use href="#chevron-left"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="w-48/100">
+                <img src="./img/poster.png" alt="">
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section>
+            <div
+                class="flex items-center justify-between relative w-full rounded-4xl bg-secondstar mt-24 px-16 pb-10 pt-16">
+                <div class="w-6/10">
+                    <svg class="absolute top-[-41px] right-1/2 translate-x-1/2 w-[186px] h-[41px]">
+                        <use href="#curve"></use>
+                    </svg>
+                    <div
+                        class="absolute -top-3 right-1/2 translate-x-1/2 w-[27px] h-[42px] border-2 border-white rounded-[100px]">
+                        <div
+                            class="absolute w-1 h-2 bg-white rounded-[13px] top-2 right-1/2 translate-x-1/2 animate-mouse">
+
+                        </div>
+                    </div>
+                    <h5 class="font-bakh-regular text-gray-400 text-3xl">About ICPC Programming</h5>
+                    <h5 class="font-rokh-bold text-[42px]">درباره مسابقات برنامه نویسی ICPC</h5>
+                    <p class="font-bakh-light text-2xl leading-10 mt-6">
+                        مسابقات بین‌المللی برنامه‌نویسی دانشجویی
+                        یکی از بزرگ‌ترین و معتبرترین رقابت‌های برنامه‌نویسی در سطح جهان است. مسابقات ICPC دارای مراحل
+                        مختلفی مانند مسابقات منطقه‌ای، ملی و بین‌المللی است. از حدود بیست و پنج سال پیش، میزبان مسابقات
+                        منطقه‌ای برنامه‌نویسی ICPC در منطقه غرب آسیا برعهده دانشگاه صنعتی شریف بوده است. علاوه بر آن،
+                        دانشگاه‌های دیگر نیز با هدف مشارکت در این رویداد جهانی، اقدام به برگزاری مسابقات تمرینی
+                        داشته‌اند. </p>
+                </div>
+                <div class="w-3/10">
+                    <img src="./img/bot.png" alt="bot">
+                </div>
+            </div>
+        </section>
+
+        <!-- Deadline -->
+        <section>
+            <div
+                class="flex justify-between items-center mt-60 w-full rounded-2xl px-11 pt-9 pb-6 bg-white/20 border border-white/30 backdrop-blur-xl">
+                <div class="w-15/100">
+                    <img class="absolute -top-32 -right-5" src="img/bot2.png" alt="bot">
+                </div>
+
+                <div>
+                    <h5 class="font-rokh-bold text-[42px]">تا پایان زمان ثبت نام در مسابقه STAR</h5>
+                    <a href="#"
+                        class="inline-block mt-2 px-8 py-4 border-b-[5px] rounded-[100px] border-border-mainstar bg-gradient-to-r from-thirdstar via-secondstar to-thirdstar shadow-[0px_12px_40px_0px_#2D50DE33] text-2xl font-bakh-bold">
+                        ثبت نام کنید
+                    </a>
+                </div>
+
+                <div class="flex gap-x-4 font-bakh-bold text-5xl">
+                    <div class="flex flex-col items-center">
+                        <div id="seconds" class="flex items-center justify-center bg-white/16 w-22 h-21 rounded-xl">
+                            05
+                        </div>
+                        <p class="font-bakh-regular text-2xl mt-1">ثانیه</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div id="minutes" class="flex items-center justify-center bg-white/16 w-22 h-21 rounded-xl">
+                            05
+                        </div>
+                        <p class="font-bakh-regular text-2xl mt-1">دقیقه</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div id="hours" class="flex items-center justify-center bg-white/16 w-22 h-21 rounded-xl">
+                            05
+                        </div>
+                        <p class="font-bakh-regular text-2xl mt-1">ساعت</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div id="days" class="flex items-center justify-center bg-white/16 w-22 h-21 rounded-xl">
+                            05
+                        </div>
+                        <p class="font-bakh-regular text-2xl mt-1">روز</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section>
+            <div class="mt-44 flex items-center justify-between">
+                <div class="w-6/10">
+                    <h5 class="font-bakh-regular text-gray-400 text-3xl mt-6">About the STAR Programming</h5>
+                    <h5 class="font-rokh-bold text-[42px]">درباره مسابقه برنامه نویسی STAR</h5>
+                    <p class="font-bakh-light text-2xl leading-10 mt-6">
+                        مسابقات بین‌المللی برنامه‌نویسی دانشجویی
+                        یکی از بزرگ‌ترین و معتبرترین رقابت‌های برنامه‌نویسی در سطح جهان است. مسابقات ICPC دارای مراحل
+                        مختلفی مانند مسابقات منطقه‌ای، ملی و بین‌المللی است. از حدود بیست و پنج سال پیش، میزبان مسابقات
+                        منطقه‌ای برنامه‌نویسی ICPC در منطقه غرب آسیا برعهده دانشگاه صنعتی شریف بوده است. علاوه بر آن،
+                        دانشگاه‌های دیگر نیز با هدف مشارکت در این رویداد جهانی، اقدام به برگزاری مسابقات تمرینی
+                        داشته‌اند. </p>
+                </div>
+                <div>
+                    <div
+                        class="w-[350px] h-[474px] border border-white/70 rounded-t-[300px] rounded-b-[10px] flex items-center justify-center">
+                        <div
+                            class="w-[316px] h-[430px] bg-secondstar rounded-t-[200px] rounded-b-[10px] flex items-end">
+                            <img src="img/logo3.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponcers -->
+        <section>
+            <div class="mt-44 flex flex-col items-center text-center">
+                <h5 class="font-bakh-regular text-gray-400 text-3xl">Sponsors</h5>
+                <h5 class="font-rokh-bold text-[42px]">حامیان مسابقه</h5>
+                <div class="mt-20 flex gap-x-6">
+
+
+                    <div class="flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-2xl bg-box-star flex items-center justify-center ">
+                            <img class="w-26 drop-shadow-md transition-all ease-in-out duration-200 hover:drop-shadow-cyan-500/50"
+                                src="img/payamuni.png" alt="">
+                        </div>
+                        <p class="font-bakh-light text-xl w-40 tracking-tight mt-4">دانشگاه پیام نور مرکز شهرستان سبزوار
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-2xl bg-box-star flex items-center justify-center ">
+                            <img class="w-26 drop-shadow-md transition-all ease-in-out duration-200 hover:drop-shadow-cyan-500/50"
+                                src="img/payam.png" alt="">
+                        </div>
+                        <p class="font-bakh-light text-xl w-40 tracking-tight mt-4">انجمن علمی مهندسی کامپیوتر پیام نور
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-2xl bg-box-star flex items-center justify-center ">
+                            <img class="w-26 drop-shadow-md transition-all ease-in-out duration-200 hover:drop-shadow-cyan-500/50"
+                                src="img/hakim.png" alt="">
+                        </div>
+                        <p class="font-bakh-light text-xl w-40 tracking-tight mt-4">انجمن علمی مهندسی کامپیوتر حکیم
+                            سبزواری</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-2xl bg-box-star flex items-center justify-center ">
+                            <img class="w-26 drop-shadow-md transition-all ease-in-out duration-200 hover:drop-shadow-cyan-500/50"
+                                src="img/hakimuni.png" alt="">
+                        </div>
+                        <p class="font-bakh-light text-xl w-40 tracking-tight mt-4">دانشگاه حکیم سبزواری</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-2xl bg-box-star flex items-center justify-center ">
+                            <img class="w-26 drop-shadow-md transition-all ease-in-out duration-200 hover:drop-shadow-cyan-500/50"
+                                src="img/parvaresh.png" alt="">
+                        </div>
+                        <p class="font-bakh-light text-xl w-40 tracking-tight mt-4">وزارت آموزش و پرورش شهرستان سبزوار
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section>
+            <div class="mt-44">
+                <h5 class="font-bakh-regular text-gray-400 text-3xl mt-6">FAQ</h5>
+                <h5 class="font-rokh-bold text-[42px]">سؤالات متداول</h5>
+                <div class="mt-7">
+                    <div id="faq" class="space-y-4">
+
+                        <div class="faq-item">
+                            <div onclick="toggleFAQ(this)"
+                                class="w-full rounded-2xl border border-white/15 flex items-center justify-between p-5">
+                                <button>
+                                    <span class="font-bakh-regular text-2xl tracking-tight">برای شرکت در این مسابقات چه
+                                        مهارت هایی باید بلد باشیم ؟</span>
+                                </button>
+                                <button>
+                                    <svg class="w-6 h-6 transform transition-transform duration-300">
+                                        <use href="#chevron-left"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <p
+                                class="answer max-h-0 overflow-hidden text-white/80 font-bakh-light text-xl transition-all duration-500 ease-in-out">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                                گیرد.
+                            </p>
+                        </div>
+                        <div class="faq-item">
+                            <div onclick="toggleFAQ(this)"
+                                class="w-full rounded-2xl border border-white/15 flex items-center justify-between p-5">
+                                <button>
+                                    <span class="font-bakh-regular text-2xl tracking-tight">هزینه شرکت در مسابقات چقدر
+                                        است؟</span>
+                                </button>
+                                <button>
+                                    <svg class="w-6 h-6 transform transition-transform duration-300">
+                                        <use href="#chevron-left"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <p
+                                class="answer max-h-0 overflow-hidden text-white/80 font-bakh-light text-xl transition-all duration-500 ease-in-out">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                                گیرد.
+                            </p>
+                        </div>
+                        <div class="faq-item">
+                            <div onclick="toggleFAQ(this)"
+                                class="w-full rounded-2xl border border-white/15 flex items-center justify-between p-5">
+                                <button>
+                                    <span class="font-bakh-regular text-2xl tracking-tight">چهارمین دوره مسابقات کی
+                                        برگزار می‌شود ؟</span>
+                                </button>
+                                <button>
+                                    <svg class="w-6 h-6 transform transition-transform duration-300">
+                                        <use href="#chevron-left"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <p
+                                class="answer max-h-0 overflow-hidden text-white/80 font-bakh-light text-xl transition-all duration-500 ease-in-out">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                                گیرد.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="container mt-44">
+        <div class="flex justify-between items-center bg-footer-star rounded-[20px] px-10 py-7">
+            <div class="flex items-center gap-x-2.5">
+                <img class="h-17" src="img/logo1.png" alt="logo">
+                <!-- <h5 class="font-rokh-bold text-4xl/[0px] text-secondstar">STAR</h5> -->
+            </div>
+
+            <div class="border-t border-white/40 w-36"></div>
+
+            <nav class="flex gap-x-9 items-center">
+                <ul class="flex gap-x-6 *:text-gray-400 font-bakh-regular">
+                    <li><a class="text-white font-bakh-medium" href="#">درباره مسابقه</a></li>
+                    <li><a href="#">جوایز</a></li>
+                    <li><a href="#">مکان مسابقه</a></li>
+                    <li><a href="#">تماس باما</a></li>
+                    <li><a href="#">برگزارکنندگان</a></li>
+                    <li><a href="#">حامیان</a></li>
+                    <li><a href="#">ثبت نام</a></li>
+                </ul>
+            </nav>
+
+            <div class="border-t border-white/40 w-36"></div>
+
+
+            <div class="flex items-center gap-x-4">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondstar">
+                    <img src="img/instagram.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondstar">
+                    <img src="img/telegram.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-secondstar">
+                    <img src="img/twitter.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <p class="text-gray-400 text-center text-lg pb-5 font-bakh-light mt-10">
+            تمامی حقوق برای 
+            <span class="text-white mr-1 underline">امیر</span>
+            محفوظه.
+        </p>
+    </footer>
+
+
+
+    <script>
+        // FAQ
+        function toggleFAQ(button) {
+            const allAnswers = document.querySelectorAll('.answer');
+
+            allAnswers.forEach(answer => {
+                if (answer !== button.nextElementSibling) {
+                    answer.style.maxHeight = null;
+                    answer.classList.remove('max-h-full', 'mb-6', 'mt-6');
+                    answer.previousElementSibling.querySelector('svg')?.classList.remove('-rotate-90');
+                }
+            });
+
+            const currentAnswer = button.nextElementSibling;
+            const isOpen = currentAnswer.style.maxHeight;
+
+            if (isOpen) {
+                currentAnswer.style.maxHeight = null;
+                currentAnswer.classList.remove('max-h-full', 'mb-6', 'mt-6');
+                button.querySelector('svg')?.classList.remove('-rotate-90');
+            } else {
+                currentAnswer.style.maxHeight = currentAnswer.scrollHeight + "px";
+                currentAnswer.classList.add('max-h-full', 'mb-6', 'mt-6');
+                button.querySelector('svg')?.classList.add('-rotate-90');
+
+            }
+        }
+
+        // Deadline
+        const targetDate = new Date(2025, 4, 8, 0, 0, 0);
+        // توجه: ماه در JavaScript از ۰ شروع می‌شود (اردیبهشت = 4)
+
+        function updateCountdown() {
+            const now = new Date();
+            const diff = targetDate - now;
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+
+        const timer = setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+
+</html>
